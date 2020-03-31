@@ -17,13 +17,6 @@
 3)针对所有的元素重复以上的步骤，除了最后一个。
 */
 
-void swap(int* a, int* b)
-{
-	int temp = 0;
-	temp = *a;
-	*a = *b;
-	*b = temp;
-}
 void bubble_sort(int arr[], int n)
 {
 	if (n <= 0)
